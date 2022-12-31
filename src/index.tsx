@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+//import App7 from './App7';
+import App4 from './App4';
+//import App6 from './App6';
+//import ZipCodeSearchForm from './components/ZipSearchForm';
+//import ZipCodeSearchResults from './components/ZipSearchResults';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +14,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
+    <App2 /> */}
+    <App/>
   </React.StrictMode>
 );
 
